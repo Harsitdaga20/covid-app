@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1{
+  color: #282c34;
+  text-align: center;
+  font-size: 39px;
+  margin: -175px -25px;
+}
+.btn {
+  width: 69%;
+  height: 55%;
+  position: relative;
+  right: -75%;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  transition: 00.3s linear;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+.btn #btn1{
+  background-color: #282c34;
+  transition: 0.3s linear;
+
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+.btn #btn1:hover{
+  transform: scale(1.1);
+}
+.btn #btn2{
+background-color: #282c34;
+  transition: 0.3s linear;
+  border-radius: 25px;
+  margin: 0 10px;
+  border: none;
+  font-size: 15px;
+
+  
+  
+
+  color: white;
+}
+.btn #btn2:hover{
+  transform: scale(1.1);
+}
+
+
+.btn button{
+  padding: 10px 40px;
+
+}
+
+.app_dropdown{
+  /* background-color: green; */
+  position: relative;
+  right: -60%;
+  top: -62px;
+ 
+}
